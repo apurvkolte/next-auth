@@ -16,7 +16,7 @@ const Userprofile = () => {
                     <div className="space-y-4">
                         <div>
                             <p className="text-sm font-medium text-gray-500">User</p>
-                            <p className="text-lg text-gray-800">{session.user.email}</p>
+                            <p className="text-lg text-gray-800">{session.user.email || session.user.name}</p>
                         </div>
                         <div>
                             <p className="text-sm font-medium text-gray-500">Joined Date</p>
