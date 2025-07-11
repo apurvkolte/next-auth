@@ -1,5 +1,5 @@
 import { connectDB } from "@/lib/mongodb";
-import { User } from "@/models/user";
+import { User } from '@/models/User'
 import bcrypt from "bcryptjs" //argon2(hight secure app like banking), scrypt, bcrypt
 
 
